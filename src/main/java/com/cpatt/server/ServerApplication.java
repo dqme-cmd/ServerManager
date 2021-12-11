@@ -70,7 +70,7 @@ public class ServerApplication {
 		UrlBasedCorsConfigurationSource urlBasedCorsConfigurationSource = new UrlBasedCorsConfigurationSource();
 		CorsConfiguration corsConfiguration = new CorsConfiguration();
 		corsConfiguration.setAllowCredentials(true);
-		corsConfiguration.setAllowedOrigins(Arrays.asList("http://localhost:3000", "http://localhost4200"));
+		corsConfiguration.setAllowedOrigins(Arrays.asList("http://localhost:3000", "http://localhost4200", "http://localhost8080", "http://localhost:3306"));
 		corsConfiguration.setAllowedHeaders(Arrays.asList("Origin", "Access-Control-Allow-Origin", "Content-Type",
 				"Accept", "Jwt-Taken", "Authorization", "Origin, Accept", "X-Request-With",
 				"Access-Control-Request-Method", "Access-Control-Request-Headers"));
